@@ -7,6 +7,6 @@ fun main(args : Array<String>) { // Without the 'args' in the main function Kotl
     for (number in numbers) {
         average += number
     }
-    average /= 5
+    average /= numbers.size
     println("The average of the values inside the ArrayList $numbers is $average")
 }
